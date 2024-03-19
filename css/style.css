@@ -1,0 +1,48 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
+
+/* body {} */
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin-inline: auto;
+}
+
+/* +CORAL_section */
+
+.subscription {
+    font-family: "Roboto";
+    background: rgba(30, 40, 50, 0.05);
+}
+
+.subscription__container {
+    padding: 100px 0;
+}
+
+.subtitle {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.products__gallery {
+    font-size: 0;
+    padding: 60px 0 70px;
+}
+
+.products__gallery-items {
+    display: inline-block;
+}
+
+.products__gallery-items:not(:last-child) {
+    margin-right: 24px;
+}
+
+.products__gallery2 {
+    display: flex;
+    gap: 24px;
+}
