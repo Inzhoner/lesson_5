@@ -1,7 +1,20 @@
 @import url(reset.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
 
-/* body {} */
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
+}
+
 .title {
     text-align: center;
     font-size: 48px;
@@ -56,18 +69,63 @@
 
 /* +  Task 2 */
 /* +  CORAL_section */
-
 .btn-wrapper {
     text-align: center;
+    padding: 50px 0;
 }
 
 .btn {
     display: inline-block;
-    width: 200px;
-    padding: 10px 20px;
+    width: 100px;
+    padding: 10px;
     border: 1px solid red;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: greenyellow;
     cursor: pointer;
     text-align: center;
+}
+
+.link__btn {
+    padding: 10px;
+}
+
+/* +  Task 3 */
+/* +  KROVATO Description section */
+.description {
+    background: rgb(248, 248, 248);
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    text-align: center;
+    color: rgb(43, 41, 41);
+    padding: 70px 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1290px;
+    margin-inline: auto;
+}
+
+.description__title {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.description__content {
+}
+.description__content-box {
+    width: 300px;
+}
+.content-box__title {
+    font-size: 26px;
+    line-height: 34px;
+    padding: 20px 0;
+}
+.content-box__text {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
 }
